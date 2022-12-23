@@ -1,0 +1,25 @@
+<template>
+  <nav class="navbar bg-primary ">
+    <a class="navbar-brand text-white ">
+        <img src="@/assets/logo.png" alt="logo" class="d-inline-block align-text-top mx-2" height="24" @click="this.$router.push({name:'home'})">
+        
+    </a>
+       
+    <div class="d-flex">
+        <button class="btn btn-outline-info mx-2"><i class="fa fa-sign-out-alt"></i></button>
+        
+    </div>
+  </nav>
+</template>
+
+
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
